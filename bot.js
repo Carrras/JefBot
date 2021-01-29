@@ -16,7 +16,7 @@ client.on('message', msg =>{
     }
 
     if (msg.content === `${BOT_PREFIX}${JEFTE_COMMAND}`){
-        message.channel.send('', {
+        msg.channel.send('', {
             files: [
                 "https://i.ibb.co/Sv25NWq/unknown.png"
             ]})
