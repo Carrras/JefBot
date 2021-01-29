@@ -5,6 +5,7 @@ const client =  new Discord.Client()
 const BOT_PREFIX = '!'
 const SPURS_COMAND = 'jefbale'
 const JEFTE_COMMAND = 'jefte'
+const BORIS_COMMAND = 'boris'
 
 
 client.on('ready', () => {
@@ -18,7 +19,14 @@ client.on('message', msg =>{
     if (msg.content === `${BOT_PREFIX}${JEFTE_COMMAND}`){
         msg.channel.send('', {
             files: [
-                "https://i.ibb.co/Sv25NWq/unknown.png"
+                "https://ibb.co/Q9jbPsS"
+            ]})
+    }
+
+    if (msg.content === `${BOT_PREFIX}${BORIS_COMMAND}`){
+        msg.channel.send('', {
+            files: [
+                "https://ibb.co/SJ0bh3h"
             ]})
     }
 
