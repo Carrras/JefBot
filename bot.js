@@ -19,14 +19,14 @@ client.on('message', msg =>{
     if (msg.content === `${BOT_PREFIX}${JEFTE_COMMAND}`){
         msg.channel.send('', {
             files: [
-                "https://ibb.co/Q9jbPsS"
+                "https://i.ibb.co/31Yrpt6/jefinhu.jpg"
             ]})
     }
 
     if (msg.content === `${BOT_PREFIX}${BORIS_COMMAND}`){
         msg.channel.send('', {
             files: [
-                "https://ibb.co/SJ0bh3h"
+                "https://i.ibb.co/JC2Vfsf/20258457-822484741250169-7880233283161049047-n.png"
             ]})
     }
 
